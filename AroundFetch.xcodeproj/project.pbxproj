@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF3247A517ED6A5D00D4BDF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3247A417ED6A5D00D4BDF3 /* Foundation.framework */; };
+		FF3247A717ED6A5D00D4BDF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3247A617ED6A5D00D4BDF3 /* CoreGraphics.framework */; };
+		FF3247A917ED6A5D00D4BDF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3247A817ED6A5D00D4BDF3 /* UIKit.framework */; };
+		FF3247AF17ED6A5D00D4BDF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF3247AD17ED6A5D00D4BDF3 /* InfoPlist.strings */; };
+		FF3247B117ED6A5D00D4BDF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3247B017ED6A5D00D4BDF3 /* main.m */; };
+		FF3247B517ED6A5D00D4BDF3 /* AroundFetchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3247B417ED6A5D00D4BDF3 /* AroundFetchAppDelegate.m */; };
+		FF3247B817ED6A5D00D4BDF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3247B617ED6A5D00D4BDF3 /* Main.storyboard */; };
+		FF3247BB17ED6A5D00D4BDF3 /* AroundFetchMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3247BA17ED6A5D00D4BDF3 /* AroundFetchMasterViewController.m */; };
+		FF3247BE17ED6A5D00D4BDF3 /* AroundFetchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3247BD17ED6A5D00D4BDF3 /* AroundFetchDetailViewController.m */; };
+		FF3247C017ED6A5D00D4BDF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3247BF17ED6A5D00D4BDF3 /* Images.xcassets */; };
+		FF3247C717ED6A5D00D4BDF3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3247C617ED6A5D00D4BDF3 /* XCTest.framework */; };
+		FF3247C817ED6A5D00D4BDF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3247A417ED6A5D00D4BDF3 /* Foundation.framework */; };
+		FF3247C917ED6A5D00D4BDF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3247A817ED6A5D00D4BDF3 /* UIKit.framework */; };
+		FF3247D117ED6A5D00D4BDF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF3247CF17ED6A5D00D4BDF3 /* InfoPlist.strings */; };
+		FF3247D317ED6A5D00D4BDF3 /* AroundFetchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3247D217ED6A5D00D4BDF3 /* AroundFetchTests.m */; };
+		FF3247DD17ED6BEB00D4BDF3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3247DC17ED6BEB00D4BDF3 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF3247CA17ED6A5D00D4BDF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF32479917ED6A5D00D4BDF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF3247A017ED6A5D00D4BDF3;
+			remoteInfo = AroundFetch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF3247A117ED6A5D00D4BDF3 /* AroundFetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AroundFetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3247A417ED6A5D00D4BDF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF3247A617ED6A5D00D4BDF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF3247A817ED6A5D00D4BDF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF3247AC17ED6A5D00D4BDF3 /* AroundFetch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AroundFetch-Info.plist"; sourceTree = "<group>"; };
+		FF3247AE17ED6A5D00D4BDF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF3247B017ED6A5D00D4BDF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF3247B217ED6A5D00D4BDF3 /* AroundFetch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AroundFetch-Prefix.pch"; sourceTree = "<group>"; };
+		FF3247B317ED6A5D00D4BDF3 /* AroundFetchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AroundFetchAppDelegate.h; sourceTree = "<group>"; };
+		FF3247B417ED6A5D00D4BDF3 /* AroundFetchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AroundFetchAppDelegate.m; sourceTree = "<group>"; };
+		FF3247B717ED6A5D00D4BDF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF3247B917ED6A5D00D4BDF3 /* AroundFetchMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AroundFetchMasterViewController.h; sourceTree = "<group>"; };
+		FF3247BA17ED6A5D00D4BDF3 /* AroundFetchMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AroundFetchMasterViewController.m; sourceTree = "<group>"; };
+		FF3247BC17ED6A5D00D4BDF3 /* AroundFetchDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AroundFetchDetailViewController.h; sourceTree = "<group>"; };
+		FF3247BD17ED6A5D00D4BDF3 /* AroundFetchDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AroundFetchDetailViewController.m; sourceTree = "<group>"; };
+		FF3247BF17ED6A5D00D4BDF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF3247C517ED6A5D00D4BDF3 /* AroundFetchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AroundFetchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3247C617ED6A5D00D4BDF3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FF3247CE17ED6A5D00D4BDF3 /* AroundFetchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AroundFetchTests-Info.plist"; sourceTree = "<group>"; };
+		FF3247D017ED6A5D00D4BDF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF3247D217ED6A5D00D4BDF3 /* AroundFetchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AroundFetchTests.m; sourceTree = "<group>"; };
+		FF3247DC17ED6BEB00D4BDF3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF32479E17ED6A5D00D4BDF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3247A717ED6A5D00D4BDF3 /* CoreGraphics.framework in Frameworks */,
+				FF3247A917ED6A5D00D4BDF3 /* UIKit.framework in Frameworks */,
+				FF3247DD17ED6BEB00D4BDF3 /* MapKit.framework in Frameworks */,
+				FF3247A517ED6A5D00D4BDF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3247C217ED6A5D00D4BDF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3247C717ED6A5D00D4BDF3 /* XCTest.framework in Frameworks */,
+				FF3247C917ED6A5D00D4BDF3 /* UIKit.framework in Frameworks */,
+				FF3247C817ED6A5D00D4BDF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF32479817ED6A5D00D4BDF3 = {
+			isa = PBXGroup;
+			children = (
+				FF3247AA17ED6A5D00D4BDF3 /* AroundFetch */,
+				FF3247CC17ED6A5D00D4BDF3 /* AroundFetchTests */,
+				FF3247A317ED6A5D00D4BDF3 /* Frameworks */,
+				FF3247A217ED6A5D00D4BDF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF3247A217ED6A5D00D4BDF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3247A117ED6A5D00D4BDF3 /* AroundFetch.app */,
+				FF3247C517ED6A5D00D4BDF3 /* AroundFetchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF3247A317ED6A5D00D4BDF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF3247DC17ED6BEB00D4BDF3 /* MapKit.framework */,
+				FF3247A417ED6A5D00D4BDF3 /* Foundation.framework */,
+				FF3247A617ED6A5D00D4BDF3 /* CoreGraphics.framework */,
+				FF3247A817ED6A5D00D4BDF3 /* UIKit.framework */,
+				FF3247C617ED6A5D00D4BDF3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF3247AA17ED6A5D00D4BDF3 /* AroundFetch */ = {
+			isa = PBXGroup;
+			children = (
+				FF3247B317ED6A5D00D4BDF3 /* AroundFetchAppDelegate.h */,
+				FF3247B417ED6A5D00D4BDF3 /* AroundFetchAppDelegate.m */,
+				FF3247B617ED6A5D00D4BDF3 /* Main.storyboard */,
+				FF3247B917ED6A5D00D4BDF3 /* AroundFetchMasterViewController.h */,
+				FF3247BA17ED6A5D00D4BDF3 /* AroundFetchMasterViewController.m */,
+				FF3247BC17ED6A5D00D4BDF3 /* AroundFetchDetailViewController.h */,
+				FF3247BD17ED6A5D00D4BDF3 /* AroundFetchDetailViewController.m */,
+				FF3247BF17ED6A5D00D4BDF3 /* Images.xcassets */,
+				FF3247AB17ED6A5D00D4BDF3 /* Supporting Files */,
+			);
+			path = AroundFetch;
+			sourceTree = "<group>";
+		};
+		FF3247AB17ED6A5D00D4BDF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3247AC17ED6A5D00D4BDF3 /* AroundFetch-Info.plist */,
+				FF3247AD17ED6A5D00D4BDF3 /* InfoPlist.strings */,
+				FF3247B017ED6A5D00D4BDF3 /* main.m */,
+				FF3247B217ED6A5D00D4BDF3 /* AroundFetch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF3247CC17ED6A5D00D4BDF3 /* AroundFetchTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF3247D217ED6A5D00D4BDF3 /* AroundFetchTests.m */,
+				FF3247CD17ED6A5D00D4BDF3 /* Supporting Files */,
+			);
+			path = AroundFetchTests;
+			sourceTree = "<group>";
+		};
+		FF3247CD17ED6A5D00D4BDF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3247CE17ED6A5D00D4BDF3 /* AroundFetchTests-Info.plist */,
+				FF3247CF17ED6A5D00D4BDF3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF3247A017ED6A5D00D4BDF3 /* AroundFetch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3247D617ED6A5D00D4BDF3 /* Build configuration list for PBXNativeTarget "AroundFetch" */;
+			buildPhases = (
+				FF32479D17ED6A5D00D4BDF3 /* Sources */,
+				FF32479E17ED6A5D00D4BDF3 /* Frameworks */,
+				FF32479F17ED6A5D00D4BDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AroundFetch;
+			productName = AroundFetch;
+			productReference = FF3247A117ED6A5D00D4BDF3 /* AroundFetch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF3247C417ED6A5D00D4BDF3 /* AroundFetchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3247D917ED6A5D00D4BDF3 /* Build configuration list for PBXNativeTarget "AroundFetchTests" */;
+			buildPhases = (
+				FF3247C117ED6A5D00D4BDF3 /* Sources */,
+				FF3247C217ED6A5D00D4BDF3 /* Frameworks */,
+				FF3247C317ED6A5D00D4BDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3247CB17ED6A5D00D4BDF3 /* PBXTargetDependency */,
+			);
+			name = AroundFetchTests;
+			productName = AroundFetchTests;
+			productReference = FF3247C517ED6A5D00D4BDF3 /* AroundFetchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF32479917ED6A5D00D4BDF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AroundFetch;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Yos Hashimoto";
+				TargetAttributes = {
+					FF3247A017ED6A5D00D4BDF3 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					FF3247C417ED6A5D00D4BDF3 = {
+						TestTargetID = FF3247A017ED6A5D00D4BDF3;
+					};
+				};
+			};
+			buildConfigurationList = FF32479C17ED6A5D00D4BDF3 /* Build configuration list for PBXProject "AroundFetch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF32479817ED6A5D00D4BDF3;
+			productRefGroup = FF3247A217ED6A5D00D4BDF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF3247A017ED6A5D00D4BDF3 /* AroundFetch */,
+				FF3247C417ED6A5D00D4BDF3 /* AroundFetchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF32479F17ED6A5D00D4BDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3247C017ED6A5D00D4BDF3 /* Images.xcassets in Resources */,
+				FF3247AF17ED6A5D00D4BDF3 /* InfoPlist.strings in Resources */,
+				FF3247B817ED6A5D00D4BDF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3247C317ED6A5D00D4BDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3247D117ED6A5D00D4BDF3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF32479D17ED6A5D00D4BDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3247B517ED6A5D00D4BDF3 /* AroundFetchAppDelegate.m in Sources */,
+				FF3247B117ED6A5D00D4BDF3 /* main.m in Sources */,
+				FF3247BB17ED6A5D00D4BDF3 /* AroundFetchMasterViewController.m in Sources */,
+				FF3247BE17ED6A5D00D4BDF3 /* AroundFetchDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3247C117ED6A5D00D4BDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3247D317ED6A5D00D4BDF3 /* AroundFetchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF3247CB17ED6A5D00D4BDF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF3247A017ED6A5D00D4BDF3 /* AroundFetch */;
+			targetProxy = FF3247CA17ED6A5D00D4BDF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF3247AD17ED6A5D00D4BDF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3247AE17ED6A5D00D4BDF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF3247B617ED6A5D00D4BDF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3247B717ED6A5D00D4BDF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF3247CF17ED6A5D00D4BDF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3247D017ED6A5D00D4BDF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF3247D417ED6A5D00D4BDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF3247D517ED6A5D00D4BDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF3247D717ED6A5D00D4BDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AroundFetch/AroundFetch-Prefix.pch";
+				INFOPLIST_FILE = "AroundFetch/AroundFetch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF3247D817ED6A5D00D4BDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AroundFetch/AroundFetch-Prefix.pch";
+				INFOPLIST_FILE = "AroundFetch/AroundFetch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FF3247DA17ED6A5D00D4BDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AroundFetch.app/AroundFetch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AroundFetch/AroundFetch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AroundFetchTests/AroundFetchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FF3247DB17ED6A5D00D4BDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AroundFetch.app/AroundFetch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AroundFetch/AroundFetch-Prefix.pch";
+				INFOPLIST_FILE = "AroundFetchTests/AroundFetchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF32479C17ED6A5D00D4BDF3 /* Build configuration list for PBXProject "AroundFetch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3247D417ED6A5D00D4BDF3 /* Debug */,
+				FF3247D517ED6A5D00D4BDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3247D617ED6A5D00D4BDF3 /* Build configuration list for PBXNativeTarget "AroundFetch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3247D717ED6A5D00D4BDF3 /* Debug */,
+				FF3247D817ED6A5D00D4BDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3247D917ED6A5D00D4BDF3 /* Build configuration list for PBXNativeTarget "AroundFetchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3247DA17ED6A5D00D4BDF3 /* Debug */,
+				FF3247DB17ED6A5D00D4BDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF32479917ED6A5D00D4BDF3 /* Project object */;
+}
