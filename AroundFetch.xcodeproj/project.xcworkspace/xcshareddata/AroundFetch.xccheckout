@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4A9AEAA2-ECA0-4184-A7CD-C4E136B0120E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AroundFetch</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5B4DD95C-4AF7-4EA7-8AA5-041885FD0399</key>
+		<string>https://github.com/AlohaYos/AroundFetch.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AroundFetch.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5B4DD95C-4AF7-4EA7-8AA5-041885FD0399</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AlohaYos/AroundFetch.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5B4DD95C-4AF7-4EA7-8AA5-041885FD0399</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5B4DD95C-4AF7-4EA7-8AA5-041885FD0399</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AroundFetch</string>
+		</dict>
+	</array>
+</dict>
+</plist>
